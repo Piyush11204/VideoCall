@@ -4,7 +4,7 @@ import Peer from "simple-peer";
 import io from "socket.io-client";
 import VideoSetup from "../components/VideoSetup";
 
-const socket = io.connect('http://localhost:5000');
+const socket = io.connect('https://videocall-metl.onrender.com');
 
 const VideoCall = () => {
     const [me, setMe] = useState("");
