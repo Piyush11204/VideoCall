@@ -4,7 +4,7 @@ const app = express()
 const server = http.createServer(app)
 const io = require("socket.io")(server, {
 	cors: {
-		origin: "https://video-call-wine.vercel.app/",
+		origin: "https://video-call-wine.vercel.app",
 		methods: [ "GET", "POST" ]
 	}
 })
