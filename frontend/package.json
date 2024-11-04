@@ -10,6 +10,7 @@
 		"react": "^17.0.1",
 		"react-copy-to-clipboard": "^5.0.3",
 		"react-dom": "^17.0.1",
+		"react-hot-toast": "^2.4.1",
 		"react-router-dom": "^6.27.0",
 		"react-scripts": "^5.0.1",
 		"simple-peer": "^9.9.3",
